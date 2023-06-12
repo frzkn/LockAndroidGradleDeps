@@ -33,5 +33,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "engines": {
+    "npm": "Please use Yarn to avoid versioning issues"
   }
 }
