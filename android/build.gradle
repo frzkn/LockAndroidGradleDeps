@@ -18,3 +18,13 @@ buildscript {
         classpath("com.facebook.react:react-native-gradle-plugin")
     }
 }
+
+subprojects {
+    configurations.all {
+       it.resolutionStrategy.activateDependencyLocking()
+    }
+}
+
+dependencyLocking {
+    lockAllConfigurations()
+}
